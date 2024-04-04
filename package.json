@@ -1,0 +1,30 @@
+{
+  "name": "martian-robot-simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "jest": {
+      "verbose": true
+    }
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "build": "npm run build-ts",
+    "build-ts": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
